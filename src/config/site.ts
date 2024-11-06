@@ -48,7 +48,7 @@ export const siteConfig = {
 	footer: {
 		links: {
 			githubProfile: 'https://github.com/sendemy',
-			githubSourceCode: 'https://github.com/shadcn-ui/ui',
+			githubSourceCode: 'https://github.com/sendemy/task-react',
 		},
 	},
 }
