@@ -54,7 +54,7 @@ First, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/sendemy/task-react.git
-cd frontend-test-task`
+cd frontend-test-task
 ```
 
 Install the required dependencies using npm:
@@ -71,10 +71,10 @@ npm install
 
 Once the dependencies are installed, start the development server:
 
-`npm run dev`
+```npm run dev```
 
 The app should now be running locally at:
 
-`http://localhost:5173`
+```http://localhost:5173```
 
 You can now access the website and test its functionality.
