@@ -27,7 +27,7 @@ const formSchema = z.object({
 		.min(2, {
 			message: 'Name must be at least 2 characters.',
 		})
-		.max(16, { message: 'Name is too long.' }),
+		.max(32, { message: 'Name is too long.' }),
 	email: z.string().email({ message: 'Invalid email address' }),
 	message: z.string().max(1024, { message: 'The message is too long' }),
 })
