@@ -1,5 +1,8 @@
 # Frontend Developer Test Task
 
+## Preview
+https://sendemy.github.io/task-react/
+
 ## Overview
 
 This project is a simple two-page website with a main page and a contact page. The contact page includes a form that collects user input, sends the data to the backend, and displays a thank-you message after form submission.
@@ -40,9 +43,6 @@ This project is a simple two-page website with a main page and a contact page. T
 2. **Backend**:
 
    - The backend is implemented using Appwrite's cloud database that logs the form data to the console and responds with a message: `'Thank you for your interest, {Name},'`.
-
-3. **Hosting**:
-   - The site is hosted on [Netlify](https://www.netlify.com/)
 
 ## Installation Guide
 
