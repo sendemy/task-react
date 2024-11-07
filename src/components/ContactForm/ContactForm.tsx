@@ -22,11 +22,14 @@ interface ContactFormProps {
 }
 
 const formSchema = z.object({
-	name: z.string().min(2, {
-		message: 'Name must be at least 2 characters.',
-	}),
+	name: z
+		.string()
+		.min(2, {
+			message: 'Name must be at least 2 characters.',
+		})
+		.max(16, { message: 'Name is too long.' }),
 	email: z.string().email({ message: 'Invalid email address' }),
-	message: z.string(),
+	message: z.string().max(1024, { message: 'The message is too long' }),
 })
 
 export function ContactForm({ sendMessage }: ContactFormProps) {
