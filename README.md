@@ -44,9 +44,6 @@ This project is a simple two-page website with a main page and a contact page. T
 
    - The backend is implemented using Appwrite's cloud database that logs the form data to the console and responds with a message: `'Thank you for your interest, {Name},'`.
 
-3. **Hosting**:
-   - The site is hosted on [Netlify](https://www.netlify.com/)
-
 ## Installation Guide
 
 Follow these steps to set up the project locally:
