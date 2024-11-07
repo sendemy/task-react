@@ -25,6 +25,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
+
+      - name: Set environment variables
+        run: |
+          echo "VITE_APPWRITE_COLLECTION_ID=${{ secrets.VITE_APPWRITE_COLLECTION_ID }}" >> .env
+          echo "VITE_APPWRITE_DATABASE_ID=${{ secrets.VITE_APPWRITE_DATABASE_ID }}" >> .env
+          echo "VITE_APPWRITE_PROJECT_ID=${{ secrets.VITE_APPWRITE_PROJECT_ID }}" >> .env
+
       - run: npm run build --if-present
 
       - name: Deploy with gh-pages
