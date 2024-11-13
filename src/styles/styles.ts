@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const PageContainer = styled.div`
 	display: flex;
@@ -45,4 +45,31 @@ export const Wrapper = styled.section<{ $dark?: boolean }>`
 
 export const ButtonContainer = styled.div`
 	text-align: center;
+`
+
+export const mediaVideoimensions = css`
+	@media (min-width: 1024px) {
+		width: 720px;
+		height: 360px;
+	}
+
+	@media (max-width: 1024px) {
+		width: 480px;
+		height: 240px;
+	}
+
+	@media (max-width: 768px) {
+		width: 720px;
+		height: 360px;
+	}
+
+	@media (max-width: 425px) {
+		width: 360px;
+		height: 180px;
+	}
+
+	@media (max-width: 375px) {
+		width: 240px;
+		height: 120px;
+	}
 `

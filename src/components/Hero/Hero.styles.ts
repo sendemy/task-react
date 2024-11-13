@@ -1,3 +1,4 @@
+import { mediaVideoimensions } from '@/styles/styles'
 import styled from 'styled-components'
 
 export const Container = styled.section`
@@ -32,23 +33,21 @@ export const Text = styled.p`
 `
 
 export const IFrame = styled.iframe`
-	@media (max-width: 1024px) {
-		width: 480px;
-		height: 240px;
-	}
+	${mediaVideoimensions}
+`
 
-	@media (max-width: 768px) {
-		width: 720px;
-		height: 360px;
-	}
+export const VideoContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+	background-color: #e3e3e3;
 
-	@media (max-width: 425px) {
-		width: 360px;
-		height: 180px;
-	}
+	${mediaVideoimensions}
+`
 
-	@media (max-width: 375px) {
-		width: 240px;
-		height: 120px;
-	}
+export const VideoImage = styled.img`
+	${mediaVideoimensions}
 `
