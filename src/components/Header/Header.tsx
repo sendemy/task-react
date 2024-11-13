@@ -1,5 +1,4 @@
 import { siteConfig } from '@/config/site'
-import { Link } from 'react-router-dom'
 import { Button } from '../ui/button'
 import { CompanyName, HeaderStyled } from './Header.styles'
 
@@ -8,8 +7,8 @@ export function Header() {
 		<HeaderStyled>
 			<CompanyName>{siteConfig.header.companyName}</CompanyName>
 			<div>
-				<Button className='px-12'>
-					<Link to={'/contact'}>Contact Us</Link>
+				<Button redirectTo='/contact' className='px-12'>
+					Contact us
 				</Button>
 			</div>
 		</HeaderStyled>

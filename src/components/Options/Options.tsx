@@ -1,6 +1,5 @@
 import { siteConfig } from '@/config/site'
 import { ButtonContainer, HeadingLg, HeadingMd } from '@/styles/styles'
-import { Link } from 'react-router-dom'
 import { Button } from '../ui/button'
 import { Container, Option, OptionsStyled } from './Options.styles'
 
@@ -19,8 +18,8 @@ export function Options() {
 				})}
 			</OptionsStyled>
 			<ButtonContainer>
-				<Button className='px-12'>
-					<Link to={'/contact'}>Contact Us</Link>
+				<Button redirectTo='/contact' className='px-12'>
+					Contact us
 				</Button>
 			</ButtonContainer>
 		</Container>

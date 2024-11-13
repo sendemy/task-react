@@ -6,16 +6,12 @@ export const Wrapper = styled.div`
 	height: 48px;
 	position: relative;
 	margin: 0 auto;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
 `
 
-export const Container = styled.div`
+export const Container = styled.button`
 	position: absolute;
-	width: fit-content;
-	height: fit-content;
+	width: 720px;
+	height: 360px;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
