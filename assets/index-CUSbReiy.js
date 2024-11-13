@@ -263,7 +263,7 @@ Error generating stack: `+o.message+`
 	${Ka}
 `,kk=xe.img`
 	${Ka}
-`;function Sk(){const[e,t]=R.useState(!1);function n(){t(!0)}return b.jsxs(gk,{children:[b.jsxs(vk,{children:[b.jsx(go,{children:vn.homePage.hero.title}),b.jsx(wk,{children:vn.homePage.hero.text})]}),b.jsx("div",{children:b.jsx(_k,{children:e?b.jsx(xk,{width:"720",height:"360",src:"https://www.youtube.com/embed/dQw4w9WgXcQ"}):b.jsxs(b.Fragment,{children:[b.jsx(kk,{src:"https://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg",alt:"Video image",width:720,height:360}),b.jsx(yk,{onClick:n})]})})})]})}const Ek=xe.div`
+`;function Sk(){const[e,t]=R.useState(!1);function n(){t(!0)}return b.jsxs(gk,{children:[b.jsxs(vk,{children:[b.jsx(go,{children:vn.homePage.hero.title}),b.jsx(wk,{children:vn.homePage.hero.text})]}),b.jsx("div",{children:b.jsx(_k,{children:e?b.jsx(xk,{width:"720",height:"360",src:"https://www.youtube.com/embed/dQw4w9WgXcQ",allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",allowFullScreen:!0,loading:"lazy"}):b.jsxs(b.Fragment,{children:[b.jsx(kk,{src:"https://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg",alt:"Video image",width:720,height:360}),b.jsx(yk,{onClick:n})]})})})]})}const Ek=xe.div`
 	display: flex;
 	flex-direction: column;
 	gap: 4rem;
